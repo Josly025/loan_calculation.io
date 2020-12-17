@@ -32,9 +32,10 @@
             <div class="form-group">
               <div class="input-group mb-3">
                 <div class="input-group-prepend">
-                  <span class="input-group-text">$</span>
+                  <span class="input-group-text bg-primary text-white">$</span>
                 </div>
                 <input
+                  id="loan"
                   type="text"
                   class="form-control"
                   aria-label="Amount (to the nearest dollar)"
@@ -50,9 +51,10 @@
             <div class="form-group">
               <div class="input-group mb-3">
                 <div class="input-group-prepend">
-                  <span class="input-group-text">%</span>
+                  <span class="input-group-text bg-primary text-white">%</span>
                 </div>
                 <input
+                  id="interest"
                   type="text"
                   class="form-control"
                   aria-label="Amount (to the nearest dollar)"
@@ -63,11 +65,20 @@
           </div>
         </li>
         <li class="list-group-item">
-          <button
-            id="calculate"
-            type="button"
-            class="btn btn-primary text-seconday"
-          >
+          <div class="form-group">
+            <label class="col-form-label" for="inputDefault"
+              >Payment Period (Years)</label
+            >
+            <input
+              type="text"
+              class="form-control"
+              placeholder="12"
+              id="years"
+            />
+          </div>
+        </li>
+        <li class="list-group-item">
+          <button id="calculate" type="button" class="btn btn-primary">
             Calculate
           </button>
         </li>
@@ -76,7 +87,7 @@
     <!--Card-->
     <div class="card">
       <div class="card-body">
-        <h4 class="card-title">Card title</h4>
+        <h4 class="card-title text-primary">Result:</h4>
         <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
         <p class="card-text">
           Some quick example text to build on the card title and make up the
