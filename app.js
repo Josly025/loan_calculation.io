@@ -23,7 +23,7 @@ function loanMath(e) {
   const totalNew = (monthly * paymentPeriods).toFixed(2);
   const totalAccured = (monthly * paymentPeriods - principal).toFixed(2);
   //Appending variable Results to DOM
-  monthlyPayment.innerHTML = `${monthly.toFixed(2)}`;
-  totalPayment.innerHTML = `${totalNew}`;
-  accured.innerHTML = `${totalAccured}`;
+  monthlyPayment.innerHTML = `$${monthly.toFixed(2)}`;
+  totalPayment.innerHTML = `$${totalNew}`;
+  accured.innerHTML = `$${totalAccured}`;
 }
