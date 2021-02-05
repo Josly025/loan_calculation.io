@@ -7,7 +7,9 @@
 ## Description \*\*\*
 
     This application uses loan equations
-    to calculate the returned interest, total payment amount, and monthly payment amounts. The output is calculated based on the loan amount, annual interest, and payment period (years) that are required.
+    to calculate the returned interest, total payment amount, and monthly
+    payment amounts. The output is calculated based on the loan amount, annual interest, 
+    and payment period (years) that are required.
 
 ## Table of Contents \*\*\*\*
 
@@ -23,7 +25,9 @@
 
 ## Usage_Information \*\*\*
 
-    A user should include their loan amounts, annual interest, and payment periods. Then, a user should click the "calculate payment plan" button.
+    A user should include their loan amounts, annual interest, 
+    and payment periods. Then, a user should click 
+    the "calculate payment plan" button.
 
 ## Credits
 
